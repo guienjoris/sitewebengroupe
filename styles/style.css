@@ -229,26 +229,29 @@ section {
   font-size: 2vw;
 }
 
-.form_contact {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+#form_contact {
+  display: none;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   width: 100vw;
 }
 
-.form_contact p {
+#form_contact p {
   line-height: 0.1vw;
 }
 
-.form_contact input {
+#form_contact input {
   width: 19.5vw;
 }
 
-.form_contact textarea {
+#form_contact textarea {
   width: 20vw;
   height: 10vh;
   margin-bottom: 2vw;
+}
+
+.title_form:hover {
+  cursor: -webkit-grab;
+  cursor: grab;
 }
 /*# sourceMappingURL=style.css.map */
