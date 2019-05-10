@@ -1,0 +1,193 @@
+body{
+  margin:0;
+  padding:0;
+  font-family: 'Lato', sans-serif;
+}
+
+ 
+.solutions1{
+  background:linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("../images/parallax.jpg"); 
+  background-size:cover; 
+  background-position: center; 
+  background-attachment:fixed;
+  height:80vh;
+  display: flex;
+  justify-content: center;
+}
+
+.solutions1 
+{
+  p{
+  color: white;
+  font-size: 4vw;
+  text-align: right;
+  font-style: italic;
+  padding-left: 5vh;
+  position: absolute;
+  left: 0;
+  top: 33vh;
+  margin: 0;
+  padding-left: 3vw;
+  &:hover{
+    padding-left: 6vw;
+  }
+}}
+
+
+.solutions2{
+  width: 100vw
+}
+
+.solutions2-titre{
+  padding-top: 3vw;
+  color: black;
+  letter-spacing: 0,8vw;
+  text-align: center;
+
+}
+
+.container-cards {
+  height: 70vh;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+}
+
+.card {
+  border-radius: 1vw;
+  width: 20vw;
+  margin: 5vw 2,5VW 0vw;
+.title-card {
+  padding: 2,9vw 0;
+  font-size: 2vw;
+  margin: 0,5vw 5vw;
+  text-align: center;
+}
+.title-under-card {
+  margin: 0 10px 5px 20px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.text-card {
+  margin: 0px 20px 10px;
+  font-size: 15px;
+  text-align: center;
+}}
+
+
+.container-img {
+  position: relative;
+  cursor: pointer;
+.image {
+  width: 20vw;
+  margin-bottom: -3px;
+  opacity: 1;
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
+}}
+
+
+.solutions4{
+  width: 100vw;
+  height: 25vh;
+  padding-top: 4vh;
+  text-align: center;
+  font-size: 2vw;
+p{
+  margin: 3vw 5vw 4vw 5vw;
+  text-align: center;
+}
+h2{
+    color: tomato;
+  }}
+
+.solutions5{
+    position:relative;
+    width: 100vw;
+    height: 90vh;
+}
+
+.solutions5-bloc1{
+    top: 12vh;
+    left: 12vw;
+    position: absolute;
+    width: 40vw;
+    height: 40vh;
+    border-radius: 1vw;
+    background-color: #DCDCDC;
+    z-index: 1;
+}
+
+.solutions5-p2{
+  color: tomato;
+  margin: 1vw 3vw 0 3vw;
+
+  }
+
+.solutions5-p3{
+    margin: 1vw 3vw 0 3vw;
+
+      }
+
+
+.solutions5-bloc2{
+  top: 43vh;
+  left: 47vw;
+  position: absolute;
+  width: 40vw;
+  height: 40vh;
+  background-color: white;
+  border-radius: 1vw;
+  background-image: url("../images/informatique.jpg");
+}
+
+
+
+h2{
+  font-size: 2rem;
+  margin: 0 0 1rem 0;
+}
+
+p{
+  margin: 0 0 .75rem 0;
+}
+
+.parallax-section{
+height: 100vh;
+max-height: 100vh;
+background: #fbfbfb;
+color: #fff;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+position: relative;
+}
+
+.parallax-section h1{
+  margin-top: 0;
+}
+.image-block{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  &.parallax1{
+     background-image: url("../images/parallax.jpg");
+  }
+
+
+
