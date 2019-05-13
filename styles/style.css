@@ -237,7 +237,7 @@ section {
 }
 
 #form_contact p {
-  line-height: 0.1vw;
+  line-height: 1vw;
   font-size: 1vw;
 }
 
@@ -256,10 +256,19 @@ section {
   cursor: grab;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Lato', sans-serif;
+.solutions1 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("../images/parallax.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/parallax.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .solutions2 {
@@ -392,9 +401,19 @@ body {
   font-size: 3rem;
   font-style: italic;
   background-color: #2c3e50;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 100%;
+  width: 80vw;
 }
 
-.parallax-section .image-block {
+.parallax-section h1.parallax1 {
+  background-image: url("../images/parallax.jpg");
+}
+
+.parallax-section h1 .image-block {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -416,7 +435,7 @@ body {
   width: 80VW;
 }
 
-.parallax-section .image-block.parallax1 {
+.parallax-section h1 .image-block.parallax1 {
   background-attachment: fixed;
   background-image: url("../images/parallax4.jpg");
 }
