@@ -280,6 +280,7 @@ section {
   color: black;
   letter-spacing: 0,8vw;
   text-align: center;
+  margin-top: 5vw;
 }
 
 .container-cards {
@@ -326,6 +327,10 @@ section {
   margin-left: 4vw;
 }
 
+.container-img img {
+  width: 10vw;
+}
+
 .solutions4 {
   width: 80vw;
   height: 25vh;
@@ -362,8 +367,8 @@ section {
 
 .solutions5-p2 {
   color: tomato;
-  margin: 1vw 3vw 0 3vw;
-  font-size: 0,5vw;
+  margin: 6vw 3vw 0 3vw;
+  font-size: 1vw;
 }
 
 .solutions5-bloc2 {
@@ -384,7 +389,7 @@ section {
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
-  height: 100%;
+  height: 70vh;
   width: 80vw;
   position: relative;
   background-color: rgba(0, 0, 0, 0.3);
