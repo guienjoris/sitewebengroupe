@@ -380,40 +380,28 @@ section {
 .parallax-section {
   height: 70vh;
   color: #fff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  position: relative;
-}
-
-.parallax-section h1 {
-  margin-top: 0;
-  font-size: 3rem;
-  font-style: italic;
-  background-color: #2c3e50;
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
   height: 100%;
   width: 80vw;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
-.parallax-section h1.parallax1 {
+.parallax-section h1 {
+  margin-top: 0;
+  font-size: 3rem;
+  font-style: italic;
+  text-shadow: 1px 1px 1px black;
+}
+
+.parallax-section.parallax1 {
   background-image: url("../images/parallax.jpg");
 }
 
-.parallax-section h1 .image-block {
+.parallax-section .image-block {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -431,11 +419,11 @@ section {
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
-  height: 70VH;
-  width: 80VW;
+  height: 70vh;
+  width: 80vw;
 }
 
-.parallax-section h1 .image-block.parallax1 {
+.parallax-section .image-block.parallax1 {
   background-attachment: fixed;
   background-image: url("../images/parallax4.jpg");
 }
