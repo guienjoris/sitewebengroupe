@@ -251,6 +251,16 @@ section {
   margin-bottom: 2vw;
 }
 
+#form_contact button {
+  width: 5vw;
+  border: none;
+  background-color: #02CFCB;
+  padding: 0.5vw;
+  margin-left: 25%;
+  -webkit-transform: translate(50%, -50%);
+          transform: translate(50%, -50%);
+}
+
 .title_form:hover {
   cursor: -webkit-grab;
   cursor: grab;
@@ -319,7 +329,7 @@ section {
 
 .card .text-card {
   margin: 0 1vw 0,5vw 4vw;
-  font-size: 1,5vw;
+  font-size: 1.5vw;
   text-align: center;
 }
 
@@ -367,8 +377,8 @@ section {
 
 .solutions5-p2 {
   color: tomato;
-  margin: 6vw 3vw 0 3vw;
-  font-size: 1vw;
+  margin: 4vw 3vw 0 3vw;
+  font-size: 1.3vw;
 }
 
 .solutions5-bloc2 {
@@ -383,13 +393,13 @@ section {
 }
 
 .parallax-section {
+  margin-top: -5vw;
   height: 70vh;
   color: #fff;
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
-  height: 70vh;
   width: 80vw;
   position: relative;
   background-color: rgba(0, 0, 0, 0.3);
@@ -397,7 +407,7 @@ section {
 
 .parallax-section h1 {
   margin-top: 0;
-  font-size: 3rem;
+  font-size: 3vw;
   font-style: italic;
   text-shadow: 1px 1px 1px black;
 }

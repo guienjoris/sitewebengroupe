@@ -52,7 +52,7 @@
 
 .text-card {
   margin: 0 1vw 0,5vw 4vw;
-  font-size: 1,5vw;
+  font-size: 1.5vw;
   text-align: center;
 }}
 
@@ -99,8 +99,8 @@ h2{
 
 .solutions5-p2{
   color: tomato;
-  margin: 6vw 3vw 0 3vw;
-  font-size: 1vw;
+  margin: 4vw 3vw 0 3vw;
+  font-size: 1.3vw;
 
   }
 
@@ -119,19 +119,19 @@ h2{
 
 
 .parallax-section{
+  margin-top:-5vw;
   height: 70vh;
   color: #fff;
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
-  height: 70vh;
   width: 80vw;
   position: relative;
   background-color:rgba(0,0,0,0.3);
   h1{
     margin-top: 0;
-    font-size: 3rem;
+    font-size: 3vw;
     font-style: italic;
     text-shadow: 1px 1px 1px black;
   }

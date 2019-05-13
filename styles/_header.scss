@@ -190,6 +190,14 @@ section{
         height:10vh;
         margin-bottom:2vw;
     }
+    button{
+        width:5vw;
+        border:none;
+        background-color:#02CFCB;
+        padding:0.5vw;
+        margin-left:25%;
+        transform:translate(50%,-50%);
+    }
 }
 .title_form:hover{
     cursor:grab;
