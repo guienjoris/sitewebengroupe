@@ -271,23 +271,6 @@ section {
           justify-content: center;
 }
 
-.solutions1 p {
-  color: white;
-  font-size: 4vw;
-  text-align: right;
-  font-style: italic;
-  padding-left: 5vh;
-  position: absolute;
-  left: 0;
-  top: 33vh;
-  margin: 0;
-  padding-left: 3vw;
-}
-
-.solutions1 p:hover {
-  padding-left: 6vw;
-}
-
 .solutions2 {
   width: 80vw;
 }
@@ -317,7 +300,7 @@ section {
 .card {
   border-radius: 1vw;
   width: 20vw;
-  margin: 5vw 2,5VW 0vw;
+  margin: 5vw 2,5VW 0 2vw;
 }
 
 .card .title-card {
@@ -328,28 +311,19 @@ section {
 }
 
 .card .title-under-card {
-  margin: 0 10px 5px 20px;
-  font-size: 15px;
+  margin: 0 11vw 1vw 9vw;
+  font-size: 1vw;
   text-align: center;
 }
 
 .card .text-card {
-  margin: 0px 20px 10px;
-  font-size: 15px;
+  margin: 0 1vw 0,5vw 4vw;
+  font-size: 1,5vw;
   text-align: center;
 }
 
 .container-img {
-  position: relative;
-  cursor: pointer;
-}
-
-.container-img .image {
-  width: 20vw;
-  margin-bottom: -3px;
-  opacity: 1;
-  -webkit-transition: 1s ease;
-  transition: 1s ease;
+  margin-left: 4vw;
 }
 
 .solutions4 {
@@ -376,49 +350,35 @@ section {
 }
 
 .solutions5-bloc1 {
-  top: 12vh;
-  left: 12vw;
+  top: 17vh;
+  left: 7vw;
   position: absolute;
-  width: 40vw;
-  height: 40vh;
+  width: 35vw;
+  height: 35vh;
   border-radius: 1vw;
-  background-color: #DCDCDC;
+  background-color: #ecf0f1;
   z-index: 1;
 }
 
 .solutions5-p2 {
   color: tomato;
   margin: 1vw 3vw 0 3vw;
-}
-
-.solutions5-p3 {
-  margin: 1vw 3vw 0 3vw;
+  font-size: 0,5vw;
 }
 
 .solutions5-bloc2 {
-  top: 43vh;
-  left: 47vw;
+  top: 45vh;
+  left: 37vw;
   position: absolute;
-  width: 40vw;
-  height: 40vh;
+  width: 35vw;
+  height: 35vh;
   background-color: white;
   border-radius: 1vw;
   background-image: url("../images/informatique.jpg");
 }
 
-h2 {
-  font-size: 2rem;
-  margin: 0 0 1rem 0;
-}
-
-p {
-  margin: 0 0 .75rem 0;
-}
-
 .parallax-section {
-  height: 100vh;
-  max-height: 100vh;
-  background: #fbfbfb;
+  height: 70vh;
   color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -438,9 +398,22 @@ p {
 
 .parallax-section h1 {
   margin-top: 0;
+  font-size: 3rem;
+  font-style: italic;
+  background-color: #2c3e50;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 100%;
+  width: 80vw;
 }
 
-.image-block {
+.parallax-section h1.parallax1 {
+  background-image: url("../images/parallax.jpg");
+}
+
+.parallax-section h1 .image-block {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -458,11 +431,12 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
-  height: 100%;
-  width: 80vw;
+  height: 70VH;
+  width: 80VW;
 }
 
-.image-block.parallax1 {
-  background-image: url("../images/parallax.jpg");
+.parallax-section h1 .image-block.parallax1 {
+  background-attachment: fixed;
+  background-image: url("../images/parallax4.jpg");
 }
 /*# sourceMappingURL=style.css.map */
