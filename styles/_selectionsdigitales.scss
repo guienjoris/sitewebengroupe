@@ -1,10 +1,4 @@
-body{
-  margin:0;
-  padding:0;
-  font-family: 'Lato', sans-serif;
-}
 
- 
 .solutions1{
   background:linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("../images/parallax.jpg"); 
   background-size:cover; 
@@ -35,7 +29,7 @@ body{
 
 
 .solutions2{
-  width: 100vw
+  width: 80vw
 }
 
 .solutions2-titre{
@@ -95,7 +89,7 @@ body{
 
 
 .solutions4{
-  width: 100vw;
+  width: 80vw;
   height: 25vh;
   padding-top: 4vh;
   text-align: center;
@@ -110,7 +104,7 @@ h2{
 
 .solutions5{
     position:relative;
-    width: 100vw;
+    width: 80vw;
     height: 90vh;
 }
 
@@ -184,10 +178,11 @@ position: relative;
   background-repeat: no-repeat;
   position: absolute;
   height: 100%;
-  width: 100%;
+  width: 80vw;
   &.parallax1{
      background-image: url("../images/parallax.jpg");
   }
 
 
 
+}
