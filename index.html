@@ -48,7 +48,7 @@
                         />
                     </div>
                     <h2 class="title-card">Wireframing UX/UI design IHM</h2>
-                    <h3 class="title-under-card">PRIX</h3>
+                    <h3 class="title-under-card">PRIX:500$</h3>
                     <p class="text-card">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora
                     itaque aliquid
@@ -63,7 +63,7 @@
                         />
                     </div>
                     <h2 class="title-card">Développement Front-end Back-End</h2>
-                    <h3 class="title-under-card">PRIX</h3>
+                    <h3 class="title-under-card">PRIX: 500$</h3>
                     <p class="text-card">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora
                     itaque aliquid
@@ -78,7 +78,7 @@
                         />
                     </div>
                     <h2 class="title-card">Référencement SEO E-marketing</h2>
-                    <h3 class="title-under-card">PRIX</h3>
+                    <h3 class="title-under-card">PRIX: 500$</h3>
                     <p class="text-card">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora
                     itaque aliquid
@@ -101,12 +101,12 @@
     <h1 class="title_form" id="contact">Cliquez ici pour nous contacter!</h1>
     <div id="form_contact">
             
-        <form>
-            <p>Nom:</p>  <input type="text" required>  
-            <p>Prénom:</p>  <input type="text" required>     
-            <p>Adresse mail:</p>  <input type="email" placeholder="example@example.com" required>
-            <p>Téléphone:</p>   <input type="tel" pattern="[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}" placeholder="06-66-66-66-66" required>
-            <p>Votre demande:</p>  <textarea placeholder="Votre demande"></textarea>
+        <form action="contact.php" title="Envoi du formulaire" method="POST">
+            <p>Nom:</p>  <input type="text" name="nom"required>  
+            <p>Prénom:</p>  <input type="text" name="prenom" required>     
+            <p>Adresse mail:</p>  <input type="email" name="email_contact" placeholder="example@example.com" required>
+            <p>Téléphone:</p>   <input type="tel" name="tel_contact" pattern="[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}" placeholder="06-66-66-66-66" required>
+            <p>Votre demande:</p>  <textarea placeholder="Votre demande" name="demande_contact"></textarea>
             <p><button type="submit">Envoyer</button></p>
         </form>
     </div>
