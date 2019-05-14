@@ -5,7 +5,7 @@
 <body>
 <?php 
 
-var_dump($to);die;
+var_dump("Je m'appelle");die;
 
 $message = "Formulaire de contact: </br>";
 $message .= $_POST['email_contact'];
