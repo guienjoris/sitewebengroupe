@@ -1,0 +1,2 @@
+# Ignorez tous les css pour les regénérer avec le .scss
+*.css
