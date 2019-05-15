@@ -89,6 +89,7 @@
   width: 20vw;
   margin: 5vw 2,5VW 0 2vw;
   transition: all 1s;
+<<<<<<< HEAD
   transform: scale(1);
   &:hover  {
     animation: nab 8s;
@@ -101,15 +102,23 @@
   }
  
  .title-card {
+=======
+.title-card {
+>>>>>>> e17c0644358fc1c3b644cc5dcb05f44fff8bcf74
   padding: 2,9vw 0;
   font-size: 2vw;
   margin: 0,5vw 5vw;
   text-align: center;
+<<<<<<< HEAD
   &:hover {
     text-shadow: none;
   }
 
   .title-under-card {
+=======
+}
+.title-under-card {
+>>>>>>> e17c0644358fc1c3b644cc5dcb05f44fff8bcf74
   margin: 0 4vw 1vw 4vw;
   font-size: 1vw;
   text-align: center;
@@ -131,6 +140,15 @@
 }
 }
   
+
+.card:hover{
+  animation: nab 8s;
+  -webkit-animation: nab 8s;
+  position: relative;
+  transform: scale(1.3);
+  transition: 1s;
+  z-index: 1;
+}
 
 
 .solutions4{
