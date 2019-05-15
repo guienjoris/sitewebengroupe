@@ -1,0 +1,49 @@
+.solutions4{
+    width: 80vw;
+    height: 25vh;
+    padding-top: 4vh;
+    text-align: center;
+    font-size: 2vw;
+}
+
+.solutions4 p{
+    margin: 3vw 5vw 4vw 5vw;
+    text-align: center;
+    }
+
+.solutions4 h2{
+      color: tomato;
+    }
+  
+  .solutions5{
+      position:relative;
+      width: 80vw;
+      height: 90vh;
+  }
+
+.solutions5-bloc1{
+        top: 17vh;
+        left: 7vw;
+        position: absolute;
+        width: 35vw;
+        height: 35vh;
+        border-radius: 1vw;
+        background-color:rgb(0, 155, 108);
+        z-index: 1;
+}
+.solutions5-p2{
+          color: white;
+          margin: 2.5vw 3vw 0 3vw;
+          font-size: 1.2vw;
+        }
+
+    .solutions5-bloc2{
+      top: 45vh;
+      left: 37vw;
+      position: absolute;
+      width: 35vw;
+      height: 35vh;
+      background-color: white;
+      border-radius: 1vw;
+      background-image: url("../images/informatique.jpg");
+    }
